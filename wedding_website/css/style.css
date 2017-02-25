@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway)
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans)
+
+header {
+	background: #CCCCCF;
+	margin: 0 auto;
+	width: 600px;
+}
+
+nav {
+	background: #CCCFFF;
+	margin: 0 auto;
+	font-family: 'Josefin Sans'; Arial; Sans-serif;
+	font-size: 1.5em;
+}
+
+a {
+	background: #EEEEEE;
+	text-decoration: none;
+	display: block;
+	float: left;
+	padding: .5em;
+	margin: 0 2em;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: "";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+main {
+	background: #CCFFFF;
+	margin: 0 5;
+}
+
+div {
+	background: #FFFFCC;
+	margin: 0 50;
+}
+
+h1 {
+	font-family: 'Josefin Sans'; Arial; Sans-serif;
+	font-size: 3em;
+}
+
+h3 {
+	font-family: 'Josefin Sans'; Arial; Sans-serif;
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Raleway'; Arial; Sans-serif;
+	font-size: 1em;
+}
+
+ul {
+	font-family: 'Raleway'; Arial; Sans-serif;
+	font-size: 1em;
+}
