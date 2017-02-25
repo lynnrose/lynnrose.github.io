@@ -1,55 +1,70 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway)
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans)
 
-header {
-	background: #CCCCCF;
-	margin: 0 auto;
-	width: 600px;
-}
-
-nav {
-	background: #CCCFFF;
-	margin: 0 auto;
+body {
 	font-family: 'Josefin Sans'; Arial; Sans-serif;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
-a {
-	background: #EEEEEE;
-	text-decoration: none;
-	display: block;
+#buttonblock {
+	padding: 2em;
+}
+
+.buttonleft {
+	padding: 1.5em;
+	margin: 0% 0% 0% 2.5%;
 	float: left;
-	padding: .5em;
-	margin: 0 2em;
+	width: 40%;
+	min-width: 350px;
+}
+
+.buttonright {
+padding: 1.5em;
+	margin: 0% 2.5% 0% 0%;
+	float: right;
+	width: 40%;
+	min-width: 380px;
 }
 
 .clearfix:after {
-visibility: hidden;
-display: block;
-content: "";
-clear: both;
-height: 0;
-font-size: 0;
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
+
+.button {
+	padding: 1em;
+	background: #EEEEEE;
+	color: #000000;
+	text-decoration: none;
+}
+
+
 
 main {
 	background: #CCFFFF;
-	margin: 0 5;
+	margin: 0 auto;
 }
 
-div {
+.directions {
 	background: #FFFFCC;
-	margin: 0 50;
 }
 
 h1 {
 	font-family: 'Josefin Sans'; Arial; Sans-serif;
-	font-size: 3em;
+	font-size: 4em;
+	text-align: center;
+	padding: .5em;
 }
 
 h3 {
 	font-family: 'Josefin Sans'; Arial; Sans-serif;
 	font-size: 1.5em;
+	text-align: center;
+	padding: 0em 0em .5em 0em;
 }
 
 p {
