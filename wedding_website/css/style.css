@@ -1,40 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway)
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans)
 
-body {
-	font-family: 'Josefin Sans'; Arial; Sans-serif;
-	font-size: 1em;
-}
-
-#buttonblock {
-	padding: 2em;
-	text-align: center;
-}
-
-.buttonleft {
-	margin: 1em;
+/*CLEARFIX DO NOT TOUCH*/
+#info {
 	padding: 1em;
-	background: #EEEEEE;
-	color: #000000;
-	text-decoration: none;
+	margin: 1em;
 }
 
-.buttonright {
-	margin: 1em;
-	padding: 1em;
-	background: #EEEEEE;
-	color: #000000;
-	text-decoration: none;
+.left {
+margin: 0 0 0 20%;
+float: left;
+}
+
+.right {
+margin: 0 10% 0 0;
+float: right;
+width: 40%
 }
 
 #map {
-float: left;
-width: 50%
-}
-
-.directions {
-float: right;
-width: 50%
+	width: 100%;
 }
 
 .clearfix:after {
@@ -46,18 +31,55 @@ width: 50%
 	height: 0;
 }
 
+/*END OF CLEARFIX*/
+.hero {
+	margin: 0 auto 1em auto;
+	width: 50%;
+	padding: 1em;
+	border: solid 3px #EFDBB2;
+}
+
+#hero {
+	width: 100%;
+}
+
+.button {
+	margin: 1em;
+	padding: 1em;
+	background: #EFDBB2;
+	color: #D32E5E;
+	text-decoration: none;
+	border-style: solid;
+	border-radius: 1em;
+}
+
+#buttonblock {
+	padding: 2em;
+	text-align: center;
+}
+
 .content {
 	display: block;
 	margin: 0 auto;
 	width: 50%;
 	text-align: center;
+	padding: 2em 0;
+}
+
+body {
+	font-family: 'Josefin Sans'; Arial; Sans-serif;
+	font-size: 1em;
+	background: url("../images/background.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 h1 {
 	font-family: 'Josefin Sans'; Arial; Sans-serif;
-	font-size: 4em;
+	font-size: 3.5em;
 	text-align: center;
 	padding: .5em;
+	font-weight: 700;
 }
 
 h2 {
@@ -71,11 +93,13 @@ h3 {
 	font-family: 'Josefin Sans'; Arial; Sans-serif;
 	font-size: 1.5em;
 	padding: 0em 0em .5em 0em;
+	font-variant: small-caps;
 }
 
 p {
 	font-family: 'Raleway'; Arial; Sans-serif;
 	font-size: 1em;
+	line-height: 1.1em;
 }
 
 ul {
@@ -85,4 +109,62 @@ ul {
 
 a {
 	font-family: 'Raleway'; Arial; Sans-serif;
+}
+
+@media only screen and (max-width: 1180px) {
+	.left {
+	margin: 0 0 0 15%;
+	}
+
+	.right {
+	margin: 0 10% 0 0;
+	width: 40%;
+	}
+}
+
+@media only screen and (max-width: 1015px) {
+	.left {
+	margin: 0 0 0 10%;
+	}
+
+	.right {
+	margin: 0 5% 0 0;
+	width: 40%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.left {
+	margin: 0 0 0 10%;
+	width: 40%;
+	}
+
+	.right {
+	margin: 0 5% 0 0;
+	width: 40%;
+	}
+
+	h1 {
+	font-size: 2.5em;
+	padding: 2em 0em .5em 0em;
+	font-weight: 500;
+	}
+
+	h2 {
+	font-size: 1.25em;
+	padding: 0em 0em .5em 0em;
+	}
+
+	h3 {
+	font-size: 1.25em;
+	padding: 0em 0em .5em 0em;
+	}
+
+	p {
+	font-size: 1em;
+	}
+
+	.hero {
+	padding: 1em;
+	}
 }
