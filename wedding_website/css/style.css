@@ -32,6 +32,16 @@ width: 40%
 }
 
 /*END OF CLEARFIX*/
+.names {
+	margin: 0 auto;
+	width: 50%;
+	padding: 5em 1em 1em 1em;
+}
+
+#names {
+	width: 100%;
+}
+
 .hero {
 	margin: 0 auto 1em auto;
 	width: 50%;
@@ -171,6 +181,38 @@ a {
 	}
 
 	.hero {
+	margin: 0 auto 1em auto;
+	width: 90%;
 	padding: 1em;
 	}
-}
+
+	#hero {
+	width: 100%;
+	}
+
+	.names {
+	margin: 0 auto;
+	width: 90%;
+	padding: 3em 1em 1em 1em;
+	}
+
+	#names {
+	width: 100%;
+	}
+
+
+@media only screen and (max-width: 400px) {
+	.left {
+	margin: 0 auto;
+	width: 50%;
+	float: none;
+	padding: 1em;
+	}
+
+	.right {
+	margin: 0 auto;
+	width: 90%;
+	float: none;
+	padding: 1em;
+	text-align: center;
+	}
